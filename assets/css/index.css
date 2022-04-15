@@ -1,0 +1,35 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  width: 100%;
+  height: 100%;
+  background-color: #0C1016;
+  font-size: 10px;
+  color: white;
+}
+
+.nah-bro-jk {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-top: 1rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.rectangle {
+    background-color: #003e0ac1;
+    position: fixed;
+}
+
+@keyframes goToTop {
+    from {
+        bottom: -450px;
+    }
+    to {
+        bottom: 110%;
+    }
+}
